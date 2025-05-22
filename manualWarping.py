@@ -78,8 +78,8 @@ def stitch_images(image_paths, output_path="stitched_panorama.jpg"):
 if __name__ == "__main__":
     # --- IMPORTANT: Replace with the actual paths to your images ---
     # For your soccer field, you'll likely have two images
-    left_image_path = "left_2.jpeg"  # e.g., "soccer_left.jpg"
-    right_image_path = "right_2.jpeg" # e.g., "soccer_right.jpg"
+    left_image_path = "data/left_10.jpeg"  # e.g., "soccer_left.jpg"
+    right_image_path = "data/right_10.jpeg" # e.g., "soccer_right.jpg"
 
     # Create dummy images if they don't exist for testing purposes
     # You should replace this with your actual image files
